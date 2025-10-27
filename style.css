@@ -203,4 +203,109 @@ img{
     justify-content: center;
 }
 
-  
+
+
+/* Page about study */
+.study-container {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.study-text {
+    margin-top: 30px;
+}
+.study-img{
+    margin: 25px auto;
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.study-list{
+    list-style: square;
+    margin-left: 20px;
+}
+.study-item{
+    margin-top: 10px;
+}
+
+
+/* Contacts */
+.contacts-container {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+    font-size: 30px;
+}
+.contact-text{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact-link{
+    color: #aa43a2;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #8a1381;
+    font-weight: 700;
+}
+.contact-img{
+    height: 100%;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.news-container {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.news-text{
+    margin-top: 30px;
+}
+
+
+.news-text{
+   font-size: 18px;
+     
+}
+
+.news-title{
+    font-size: 28px;
+     display: flex;
+    justify-content: center;
+}
+
+
+.news-img{
+    margin: 25px auto;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.new-text-wrap{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
