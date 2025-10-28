@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+   flex-wrap: wrap;
 }
 .header{
     background-color: #aa43a2;
@@ -309,3 +310,103 @@ flex-wrap: wrap;
 
 
 
+.news-two-container {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.news-two-text{
+    margin-top: 30px;
+}
+
+
+.news-two-text{
+   font-size: 18px;
+     
+}
+
+.news-two-title{
+    font-size: 28px;
+     display: flex;
+    justify-content: center;
+}
+
+
+.news-two-img{
+    margin: 25px auto;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.news-two-wrap{
+display: flex;
+flex-wrap: wrap;
+}
+
+.title{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+.news-three-container {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.news-three-text{
+    margin-top: 30px;
+}
+
+
+.news-three-text{
+   font-size: 18px;
+     
+}
+
+.news-three-title{
+    font-size: 28px;
+     display: flex;
+    justify-content: center;
+}
+
+
+.news-three-img{
+    margin: 25px auto;
+    width: 500px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.news-three-wrap{
+display: flex;
+flex-wrap: wrap;
+}
+
+.title{
+    font-size: 24px;
+}
