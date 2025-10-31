@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6, p{
 .news-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .new{
     width: 330px;
@@ -284,6 +285,7 @@ img{
 
 .news-text{
    font-size: 18px;
+
      
 }
 
@@ -291,6 +293,7 @@ img{
     font-size: 28px;
      display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -332,9 +335,11 @@ flex-wrap: wrap;
 }
 
 .news-two-title{
-    font-size: 28px;
+    font-size: 40px;
      display: flex;
     justify-content: center;
+    
+    
 }
 
 
@@ -354,6 +359,7 @@ flex-wrap: wrap;
 
 .title{
     font-size: 24px;
+    margin: 10px;
 }
 
 
@@ -383,11 +389,12 @@ flex-wrap: wrap;
 
 .news-three-text{
    font-size: 18px;
+   margin: 20px;
      
 }
 
 .news-three-title{
-    font-size: 28px;
+    font-size: 40px;
      display: flex;
     justify-content: center;
 }
@@ -395,8 +402,8 @@ flex-wrap: wrap;
 
 .news-three-img{
     margin: 25px auto;
-    width: 500px;
-    height: 50%;
+    width: 650px;
+    height: 100%;
     display: flex;
     justify-content: center;
 
@@ -408,5 +415,5 @@ flex-wrap: wrap;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 40px;
 }
